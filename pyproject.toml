@@ -14,6 +14,8 @@ python-dotenv = "^0.10.3"
 pytest = "^5.0"
 pytest-flask = "^0.15.0"
 black = {version = ">=19",allows-prereleases = true}
+mypy = "^0.720.0"
+safety = "^1.8"
 
 [build-system]
 requires = ["poetry>=0.12"]
